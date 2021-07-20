@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Lato;
 }
 
 :root{
     /*Colores! */
     --bitcoin-orange:#F7931A;
+
 }
