@@ -1,0 +1,21 @@
+footer{
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    padding-top:22px; 
+    padding-left: 67px; 
+    display:flex;
+    flex-direction:column;
+    height: 800px;
+}
+.logo-footer{
+    width: 208px;
+    height: 209px;
+    padding-bottom: 28px;
+}
+
+.servicios-footer{
+    
+}
+.redes-footer{
+    border-top: 41px;
+}
