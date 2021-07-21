@@ -6,6 +6,9 @@ footer{
     display:flex;
     flex-direction:column;
     height: 800px;
+    font-family: Roboto;
+    font-size: 20px;
+
 }
 .logo-footer{
     width: 208px;
@@ -14,8 +17,13 @@ footer{
 }
 
 .servicios-footer{
-    
+    padding-bottom: 41px;
 }
 .redes-footer{
-    border-top: 41px;
+  
+}
+
+.redes-footer div{
+    display: flex;
+    flex-direction: row;
 }
