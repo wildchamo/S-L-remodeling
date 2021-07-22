@@ -13,6 +13,8 @@
     --bitcoin-gray: #595959; 
     --bitcoin-yellow: #FFD13E;
     --bitcoin-blue: #4081BC;
+    --azul-oscuro:#1A2C3C;
+    --blanco:#fff;
     /*Letra   */
     --font-Lato: Lato;
 }
@@ -103,7 +105,6 @@ nav .nav-links a:hover {
     .nav label {
         margin-right: -2em;
     }
-    --azul-oscuro:#1A2C3C;
-    --blanco:#fff;
+
 
 }
