@@ -1,3 +1,15 @@
+.section5{
+    height:380px;
+}
+.contenedor-section5{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contenedor-linea{
+    width: 500px;
+}
+
+
 footer{
     height: 300px;
     flex-direction: row;
