@@ -1,17 +1,15 @@
 footer{
     background-color: var(--azul-oscuro);
     color: var(--blanco);
-    padding-top:22px; 
-    padding-left: 20px; 
+    padding-top:30px;
     display:flex;
     flex-direction:column;
     height: 800px;
+    width: 100%;
     font-family: Roboto;
     font-size: 20px;
+   align-items:center;
 
-}
-footer div{
-    margin: 0 auto;
 }
 .logo-footer{
     width: 208px;
