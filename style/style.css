@@ -37,10 +37,57 @@ nav .nav-links {
     margin-top: 2em;
     right: 0em;
     display: inline-block;
-    margin-right: 5em;
+    margin-right: 5.5em;
 }
 
 nav .nav-links a{
     text-decoration: none;
+    font-weight: bold;
+    margin-left: 2em;
     color:var(--bitcoin-gray);
+}
+
+nav .nav-links a:hover {
+    color: var(--bitcoin-blue);
+}
+
+#btn-menu {
+    display: none;
+}
+
+.nav label {
+    display: none;
+    width: 40px;
+    height: 33px;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px){
+    .nav label {
+        display: inline-block;
+        position: absolute;
+        right: 5em;
+        top: 1em;
+    }
+
+    .nav .nav-links {
+        position: absolute;
+        top: 5.2em;
+        width: 70%;
+        margin-right: -70%;
+        margin-top: 0px;
+    }
+
+    .nav-links a{
+        border-bottom: 1px solid var(--bitcoin-gray);
+        border-left: 1px solid var(--bitcoin-gray);
+        display: block;
+        padding: 1em;
+    }
+
+    #btn-menu:checked ~ .nav-links{
+        margin-right: 0px;
+        transition: all 0.5s;
+    }
 }
