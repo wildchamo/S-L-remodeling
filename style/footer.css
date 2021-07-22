@@ -4,7 +4,7 @@ footer{
     padding-top:30px;
     display:flex;
     flex-direction:column;
-    height: 800px;
+    height: 680px;
     width: 100%;
     font-family: Roboto;
     font-size: 20px;
@@ -20,13 +20,14 @@ footer{
 .servicios-footer{
     padding-bottom: 41px;
 }
-.redes-footer{
-  
+.logocorreo{
+    border-left: 1px;
 }
-
 .redes-footer div{
     display: flex;
     flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
     font-size: 16px;
     padding:20px 0;
 }
