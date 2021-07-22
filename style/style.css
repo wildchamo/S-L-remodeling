@@ -109,7 +109,12 @@ nav .nav-links a:hover {
 
 
 }
-
+.rectanguloseparador1{
+    width: 100%;
+    height:20px;
+    background-color:#4081BC;
+    opacity: 0.4;
+}
 .rectanguloseparador{
     width: 100%;
     height:20px;
