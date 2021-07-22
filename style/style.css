@@ -77,9 +77,9 @@ nav .nav-links a:hover {
 
     .nav .nav-links {
         position: absolute;
+        display: none;
         top: 5.2em;
         width: 70%;
-        margin-right: -70%;
         margin-top: 0px;
     }
 
@@ -91,7 +91,8 @@ nav .nav-links a:hover {
     }
 
     #btn-menu:checked ~ .nav-links{
-        margin-right: 0px;
+       
+        display: block;
         transition: all 0.5s;
     }
 }
