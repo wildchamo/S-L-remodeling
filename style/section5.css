@@ -4,6 +4,7 @@
     color: white;
     display:flex;
     flex-direction: column;
+    align-items:center;
 }
 .section5 h2{
     padding-top: 38px;
