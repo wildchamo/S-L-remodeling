@@ -30,6 +30,8 @@ nav {
 nav .nav-logo {
     display: inline-block;
     margin-left: 5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
 }
 
 nav .nav-links {
@@ -90,4 +92,16 @@ nav .nav-links a:hover {
         margin-right: 0px;
         transition: all 0.5s;
     }
+}
+
+@media (max-width: 500px) {
+    .nav .nav-logo {
+        display: inline-block;
+        margin-left: 2em;
+    }
+    
+    .nav label {
+        margin-right: -2em;
+    }
+
 }
