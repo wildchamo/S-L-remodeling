@@ -1,0 +1,33 @@
+footer{
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    padding-top:30px;
+    display:flex;
+    flex-direction:column;
+    height: 680px;
+    width: 100%;
+    font-family: Roboto;
+    font-size: 20px;
+   align-items:center;
+
+}
+.logo-footer{
+    width: 208px;
+    height: 209px;
+    padding-bottom: 28px;
+}
+
+.servicios-footer{
+    padding-bottom: 41px;
+}
+.logocorreo{
+    border-left: 1px;
+}
+.redes-footer div{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 16px;
+    padding:20px 0;
+}

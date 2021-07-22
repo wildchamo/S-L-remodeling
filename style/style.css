@@ -103,5 +103,7 @@ nav .nav-links a:hover {
     .nav label {
         margin-right: -2em;
     }
+    --azul-oscuro:#1A2C3C;
+    --blanco:#fff;
 
 }
