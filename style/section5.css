@@ -4,10 +4,22 @@
     color: white;
     display:flex;
     flex-direction: column;
-    align-items:center;
+    
 }
 .section5 h2{
     padding-top: 38px;
     font-size: 27px;
     font-weight: bold;
+    padding-bottom: 60px;
+}
+.elemento-section5{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.contenedor-linea{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding: 22px 0;
 }
