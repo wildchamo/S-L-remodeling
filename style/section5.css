@@ -4,8 +4,13 @@
     color: white;
     display:flex;
     flex-direction: column;
-    object-fit: cover;
     
+}
+@media (min-width: 378px){
+    .section5{
+        background-image: url(/src/fondosection5desk.png);
+        object-fit: cover;
+    }
 }
 .section5 h2{
     padding-top: 38px;
