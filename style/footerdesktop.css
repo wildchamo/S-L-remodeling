@@ -1,5 +1,6 @@
 .section5{
     height:380px;
+    background-image: url(/src/fondosection5desk.png);
 }
 .contenedor-section5{
     flex-direction: row;
