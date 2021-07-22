@@ -138,6 +138,13 @@ nav .nav-links a:hover {
     margin-left: 0.8em;
     line-height: 50px;
 }   
+@media (min-width: 2500px){
+    .banner .title h1 {
+        margin-top: 8%;
+        font-size: 5em;
+    }
+}
+
 .banner {
     position: relative;
     border: 1px solid black;
