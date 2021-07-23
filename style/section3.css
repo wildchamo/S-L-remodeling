@@ -1,6 +1,6 @@
 .section3{
-    background-color:var(--bitcoin-blue);
-    color:white;
+    background-color:var(--white);
+    color:var(--bitcoin-gray);
     padding: 50px;
     display:flex;
     flex-direction:column; 
@@ -21,8 +21,12 @@
 }
 
 @media (min-width: 768px){
+    .texto-section3{
+        width: 600px;
+    }
     .section3{
         flex-direction:row;
+        justify-content:flex-start;
     }
     .section3 img{
         width: 371px;
@@ -34,4 +38,5 @@
     .section3 p{
         font-size: 20px;
     }
+    
 }
