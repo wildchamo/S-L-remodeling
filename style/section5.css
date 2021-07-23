@@ -1,5 +1,6 @@
 .section5{
     background-image: url(../src/fondosection5.png);
+    background-size: cover;
     height: 547px;
     color: white;
     display:flex;
