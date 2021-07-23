@@ -22,11 +22,11 @@
 
 @media (min-width: 768px){
     .texto-section3{
-        width: 600px;
+        width: 800px;
+        padding-right: 28px;
     }
     .section3{
         flex-direction:row;
-        justify-content:flex-start;
     }
     .section3 img{
         width: 371px;
