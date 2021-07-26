@@ -25,10 +25,17 @@
     flex-direction: column;
 }
 .elemento-section5{
+    text-align: center;
     display:flex;
     flex-direction: column;
     align-items:center;
 }
+
+.elemento-section5 p{
+    margin-top: 1em;
+
+}
+
 .contenedor-linea{
     display:flex;
     flex-direction:row;

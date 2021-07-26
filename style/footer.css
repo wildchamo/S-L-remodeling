@@ -18,16 +18,24 @@ footer{
 }
 
 .servicios-footer{
+    min-width: 13em;
     padding-bottom: 41px;
+    overflow-y: hidden;
 }
 .logocorreo{
     border-left: 1px;
 }
+
 .redes-footer div{
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content:space-between;
     font-size: 16px;
     padding:20px 0;
+    overflow-y: hidden;
+}
+
+.redes-footer div p{
+    margin-left: 0.5em;
+    overflow-y: hidden;
 }

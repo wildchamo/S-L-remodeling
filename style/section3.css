@@ -23,6 +23,10 @@
     color:var(--bitcoin-gray);
 }
 
+.section3-white-first .texto-section3{
+    padding-right: 4em;
+}
+
 .section3-white{
     background-color:var(--white);
     color:var(--bitcoin-gray);
@@ -32,13 +36,18 @@
 }
 
 .texto-section3{
-    max-width: 40em;
+    max-width: 44em;
 }
 
 .section3-white .texto-section3{
+    padding-left: 4em;
     text-align: end;
     background-color:var(--white);
     color:var(--bitcoin-gray);
+}
+
+.section3-blue .texto-section3{
+    padding-right: 4em;
 }
 .section3 h2{
     padding-bottom: 41px;
@@ -58,8 +67,8 @@
 @media (min-width: 768px){
     .texto-section3{
         width: 800px;
-        padding-right: 28px;
     }
+
     .section3{
         flex-direction:row;
     }
@@ -77,4 +86,19 @@
         flex-direction: row-reverse;
     }
     
+}
+
+@media (max-width: 500px) {
+
+    .section3-white .texto-section3{
+        padding-left: 0em;
+    }
+
+    .section3-blue .texto-section3{
+        padding-right: 0em;
+    }
+
+    .section3-white-first .texto-section3{
+        padding-right: 0em;
+    }
 }
