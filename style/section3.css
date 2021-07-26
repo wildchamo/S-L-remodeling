@@ -1,9 +1,9 @@
 .section3{
-   
     padding: 50px;
     display:flex;
     flex-direction:column; 
     align-items:center;
+    justify-content: center;
 }
 
 .section3-blue{
@@ -11,7 +11,32 @@
     color:var(--blanco);
 }
 
+.section3-blue-first{
+    margin-top: 5em;
+    background-color:var(--bitcoin-blue);
+    color:var(--blanco);
+}
+
+.section3-white-first{
+    margin-top: 5em;
+    background-color:var(--blanco);
+    color:var(--bitcoin-gray);
+}
+
 .section3-white{
+    background-color:var(--white);
+    color:var(--bitcoin-gray);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.texto-section3{
+    max-width: 40em;
+}
+
+.section3-white .texto-section3{
+    text-align: end;
     background-color:var(--white);
     color:var(--bitcoin-gray);
 }
@@ -28,6 +53,7 @@
     width: 271px;
     height:360px;
 }
+
 
 @media (min-width: 768px){
     .texto-section3{
