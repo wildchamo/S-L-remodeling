@@ -1,0 +1,34 @@
+.section3 .texto-section3{
+    animation-duration: 4s;
+    animation-name: contraer;
+}
+
+.section3 img {
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+
+.section4 .img-section4{
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+
+@keyframes contraer {
+    from{
+        margin-right: 10%;
+    }
+
+    to{
+        margin-right: 0%;
+    }
+}
+
+@keyframes aparecer {
+    from{
+        opacity: 0.4;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
