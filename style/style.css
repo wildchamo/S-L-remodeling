@@ -202,11 +202,9 @@ nav .nav-links a:hover {
 
 .section-gallery .card {
     text-align: center;
-    padding-top: 3.5em;
-    padding-left: 8em;
-    padding-right: 8em;
-    padding-bottom: 3.5em;
-    width: 100%;
+    margin: auto;
+    margin-top: 5em;
+    width: 55%;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -234,6 +232,11 @@ nav .nav-links a:hover {
     background-color: var(--azul-oscuro);
     overflow-y: hidden;
 }
+
+.nav label {
+    overflow-y: hidden;
+}
+
 
 
 @media (max-width: 768px){
@@ -287,8 +290,23 @@ nav .nav-links a:hover {
 
 }
 
-.nav label {
-    overflow-y: hidden;
+
+@media (min-width: 2500px){
+    .banner .title h1 {
+        margin-top: 8%;
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 840px){
+    .section-gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-gallery .card{
+        width: 40%;
+        justify-self: center;
+    }
 }
 
 @media (max-width: 500px) {
@@ -331,24 +349,13 @@ nav .nav-links a:hover {
         display: block;
     }
 
-}
-
-@media (min-width: 2500px){
-    .banner .title h1 {
-        margin-top: 8%;
-        font-size: 5em;
-    }
-}
-
-@media (max-width: 1024px){
-    .section-gallery{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
     .section-gallery .card{
-        width: 70%;
+        margin-top: 3em;
+        width: 75%;
+        height: 350px;
         justify-self: center;
     }
+
 }
 
 @media screen and (prefers-color-scheme: light) {
