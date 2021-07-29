@@ -1,0 +1,7 @@
+.section-video{
+    height: auto;
+}
+.section-video iframe{
+    width: 636px;
+    height: 350px;
+}
