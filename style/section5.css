@@ -25,6 +25,7 @@
     flex-direction: column;
 }
 .elemento-section5{
+    width: 150px;
     text-align: center;
     display:flex;
     flex-direction: column;
