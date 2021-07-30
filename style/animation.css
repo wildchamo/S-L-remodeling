@@ -13,6 +13,11 @@
     animation-name: aparecer;
 }
 
+.section-gallery .card {
+    animation-name: aparecer;
+    animation-duration: 4s;
+}
+
 @keyframes contraer {
     from{
         margin-right: 10%;

@@ -188,8 +188,8 @@ nav .nav-links a:hover {
 }
 
 .section-gallery{
-    margin-top: -5em;
-    width: 100%;
+    margin: auto;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -203,8 +203,8 @@ nav .nav-links a:hover {
 .section-gallery .card {
     text-align: center;
     margin: auto;
-    margin-top: 5em;
-    width: 55%;
+    margin-top: 4em;
+    width: 70%;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -235,6 +235,18 @@ nav .nav-links a:hover {
 
 .nav label {
     overflow-y: hidden;
+}
+
+.title-gallery {
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    height: 5em;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.8em;
+    background-color: var(--bitcoin-blue);
+    color: white;
 }
 
 
@@ -304,7 +316,7 @@ nav .nav-links a:hover {
     }
 
     .section-gallery .card{
-        width: 40%;
+        width: 75%;
         justify-self: center;
     }
 }
@@ -351,9 +363,13 @@ nav .nav-links a:hover {
 
     .section-gallery .card{
         margin-top: 3em;
-        width: 75%;
+        width: 95%;
         height: 350px;
         justify-self: center;
+    }
+
+    .section-gallery .card .container-img {
+        height: 15em;
     }
 
 }
