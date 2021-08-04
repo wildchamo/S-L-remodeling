@@ -249,6 +249,20 @@ nav .nav-links a:hover {
     color: white;
 }
 
+.contac {
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    background-color: #eeee;
+    padding: 0.8em;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.contac img {
+    width: 60px;
+    height: 60px;
+}
 
 
 @media (max-width: 768px){
