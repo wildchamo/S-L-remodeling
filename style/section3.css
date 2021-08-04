@@ -49,6 +49,11 @@
 .section3-blue .texto-section3{
     padding-right: 4em;
 }
+
+.section3-blue-first .texto-section3{
+    padding-right: 4em;
+}
+
 .section3 h2{
     padding-bottom: 41px;
     font-size:28px;
@@ -60,7 +65,7 @@
 }
 .section3 img{
     width: 271px;
-    height:360px;
+    height:320px;
 }
 
 
@@ -73,8 +78,8 @@
         flex-direction:row;
     }
     .section3 img{
-        width: 371px;
-        height:494px;
+        width: 492px;
+        height: 520px;
     }
     .section3 h2{
         font-size: 38px;
@@ -99,6 +104,10 @@
     }
 
     .section3-white-first .texto-section3{
+        padding-right: 0em;
+    }
+
+    .section3-blue-first .texto-section3{
         padding-right: 0em;
     }
 }
