@@ -18,7 +18,7 @@ footer{
 }
 
 .servicios-footer{
-    min-width: 13em;
+    min-width: 15em;
     padding-bottom: 41px;
     overflow-y: hidden;
 }
@@ -27,6 +27,7 @@ footer{
 }
 
 .redes-footer{
+    min-width: 15em;
     overflow-y: hidden;
 }
 
