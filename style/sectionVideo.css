@@ -1,23 +1,38 @@
 .section-video{
     display:flex;
     flex-direction: column;
-    align-items: center;
     height:560px;
+    align-items: center;
     background-color: var(--bitcoin-blue);
 }
+
 .section-video h2{
     padding: 30px 0px;
     color:white;
 }
 
-.section-video a{
+.section-video .see a{
     border-radius: 10px;
-    width:150px;
-    height:25px;
+    padding-top: 0.4em;
+    padding-bottom: 0em;
+    width: 6em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     color:white;
     background-color:var(--bitcoin-orange);
     text-align:center;
     text-decoration: none;
+}
+
+.section-video .see a:hover{
+    width: 7em;
+}
+
+.section-video .see {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .contenedor-video iframe{
@@ -28,4 +43,13 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
+}
+
+@media (max-width: 500px){
+    .section-video .see a{
+        width: 7em;
+        height: 2.5em;
+        margin-top: 1em;
+        overflow-y: hidden;
+    }
 }

@@ -253,15 +253,20 @@ nav .nav-links a:hover {
     position: fixed;
     right: 2em;
     bottom: 2em;
-    background-color: #eeee;
-    padding: 0.8em;
+    padding: 0.3em;
     text-align: center;
+    background-color: var(--bitcoin-orange);
     border-radius: 100%;
 }
 
 .contac img {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+}
+
+.contac img:hover{
+    width: 80px;
+    height: 80px;
 }
 
 
