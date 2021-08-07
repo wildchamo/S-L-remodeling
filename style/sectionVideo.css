@@ -15,7 +15,8 @@
     border-radius: 10px;
     padding-top: 0.4em;
     padding-bottom: 0em;
-    width: 6em;
+    width: 7em;
+    height: 2.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     color:white;
@@ -24,6 +25,7 @@
     text-decoration: none;
 }
 
+
 .section-video .see a:hover{
     width: 7em;
 }
@@ -31,8 +33,6 @@
 .section-video .see {
     display: flex;
     justify-content: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
 }
 
 .contenedor-video iframe{
