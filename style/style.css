@@ -198,6 +198,45 @@ nav .nav-links a:active {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.cardUltima {
+    grid-column: 1 / 3;
+    text-align: center;
+    margin: auto;
+    margin-top: 4em;
+    width: 35%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardUltima .text {
+    font-weight: bold;
+    color: var(--bitcoin-gray);
+}
+
+.section-gallery .cardUltima .container-img{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 18em;
+    background-color:var(--azul-oscuro);
+}
+
+.section-gallery .cardUltima .before-after {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.section-gallery .cardUltima .before-after p{
+    width: 50%;
+    text-align: center;
+    color: var(--blanco);
+    background-color: var(--azul-oscuro);
+    overflow-y: hidden;
+}
+
 .section-gallery .card .text {
     font-weight: bold;
     color: var(--bitcoin-gray);
@@ -342,6 +381,11 @@ nav .nav-links a:active {
         width: 75%;
         justify-self: center;
     }
+
+    .section-gallery .cardUltima{
+        width: 95%;
+        justify-self: center;
+    }
 }
 
 @media (max-width: 500px) {
@@ -392,6 +436,10 @@ nav .nav-links a:active {
     }
 
     .section-gallery .card .container-img {
+        height: 15em;
+    }
+
+    .section-gallery .cardUltima .container-img {
         height: 15em;
     }
 
