@@ -65,6 +65,10 @@ nav .nav-links a:hover {
     color: var(--bitcoin-blue);
 }
 
+nav .nav-links a:active {
+    color: var(--bitcoin-orange);
+}
+
 #btn-menu {
     display: none;
 }
