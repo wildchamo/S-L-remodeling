@@ -13,7 +13,7 @@
 
 .section-video .see a{
     border-radius: 10px;
-    padding-top: 0.4em;
+    padding-top: 0.65em;
     padding-bottom: 0em;
     width: 7em;
     height: 2.5em;
@@ -27,7 +27,7 @@
 
 
 .section-video .see a:hover{
-    width: 7em;
+    width: 8em;
 }
 
 .section-video .see {
