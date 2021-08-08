@@ -383,6 +383,7 @@ nav .nav-links a:active {
     }
 
     .section-gallery .cardUltima{
+        grid-column: 1 / 2;
         width: 95%;
         justify-self: center;
     }
